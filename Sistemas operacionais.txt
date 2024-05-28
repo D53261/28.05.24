@@ -1,0 +1,20 @@
+   Sistemas operacionais são softwares que se comunicam diretamente com o hardware da maquina, como por exemplo Windows, Linux, Android, macOS, e entre outros, sendo resumidamente um programa que impede que para que o uso da maquina seja feito, o usuario tenha que se preocupar com o proprio hardware para somente escrever um arquivo de texto, sendo assim um programa que facilita muitas coisas para o uso natural do usuario.
+
+  Os sistemas operacionais são muitas vezes considerados softwares base, por fornecer suporte as aplicações em geral. E a interface entre a aplicação e as rotinas de E/S com o hardware da maquina, e o sistema operacional atua fazendo essa conversa, atuando em dois modos: o modo supervisor e o modo usuario.
+
+ * Modo supervisor: Acesso completo a toda a maquina, dando qualquer instrução para que a maquina execute.
+ * Modo usuario: Mais restrito para instruções especificas, que interferem no controle da maquina, porem onde o software no geral opera.
+
+  Existem tambem os tipos de sistemas operacionais, com estruturas que se encaixam melhor para cada maquina. Estão divididos em monoprogramada e multiprogramada.
+
+ * Monoprogramada ou serial: funcion com apenas uma maquina, como os embarcados.
+ * Multiprogramados ou concorrente: mais eficiente e contendo varios programas, como diz o nome. Exemplos famosos são Linux, Windows, UNIX, entre outros.
+
+  Por meio das chamadas de sistemas executadas geralmente em terminais da maquina que os processos realizados pelos sistemas operacionais podem ser manualmente executados ou interrompidos, como a chamada "mkdir", que cria um novo diretório.
+
+  Existem tambem os sistemas e estruturas que ja são implementadas na pratica:
+
+ * Sistema monolitico: o mais natural, que possui um modo nucleo e um modo usuario, como o Windows, Linux, e outros.
+ * Sistema de camadas: divide as funcionalidades a partir de uma espécie de hierarquia, sendo modular, um exemplo é MULTICS, OpenVMS.
+ * Micronucleo ou microkernel: aqui apenas o micronucleo é executado em modo nucleo, onde a alta confiabilidade é buscada pela divisão desses pequenos modulos, que não sendo o micronucleo, funcionam em processo comum, como Symbian e MINIX 3.
+ * Maquina virtual: simplesmente uma maquina simulada dentro do proprio sistema operacional, possuindo uma camada limiar, como a maquina virtual Java.
